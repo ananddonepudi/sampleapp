@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20 # optional — if you need Node or any tools
+    commands:
+      - echo "Install phase - nothing to install for static HTML"
+
+  build:
+    commands:
+      - echo "Build phase - zipping HTML files"
+      - zip -r html-site.zip . -x "buildspec.yaml"
+
+artifacts:
+  files:
+    - html-site.zip

@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       nodejs: 20 # optional — if you need Node or any tools
     commands:
-      - echo "Install phase - nothing to install for static HTML"
+      - echo "Install phase - nothing to install for static HTML page"
 
   build:
     commands:

@@ -1,10 +1,10 @@
 
 #!/bin/bash
-yum update -y
-yum install -y httpd.x86_64
-yum install -y git 
-systemctl start httpd.service
-systemctl enable httpd.service
+sudo yum update -y
+sudo yum install -y httpd.x86_64
+sudo yum install -y git 
+sudo systemctl start httpd.service
+sudo systemctl enable httpd.service
 #code deploy agent commands
 sudo yum update -y
 sudo yum install ruby -y

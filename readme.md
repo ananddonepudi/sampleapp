@@ -19,4 +19,5 @@ sudo systemctl start codedeploy-agent
 sudo systemctl enable codedeploy-agent
 sudo systemctl status codedeploy-agent
 
-
+pipelinesvcrole- arn:aws:iam::344249396000:role/service-role/AWSCodePipelineServiceRole-ap-south-1-Vpl
+ec2role AWSADec2CodeDeployFullAccess
